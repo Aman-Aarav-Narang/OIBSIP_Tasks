@@ -1,0 +1,31 @@
+.container{
+    border: 3px dotted black;
+    
+    width: 80%;
+    margin: auto;
+    background-color:rgb(255, 247, 237);
+}
+
+.head{
+    text-align: center;
+}
+
+.img{
+    text-align: center;
+
+}
+.img img{
+    width: 80%;
+    height: 450px;
+}
+
+.text-justify{
+    text-align: justify;
+    padding: 10px;
+}
+.data{
+    /* border: 1px solid black; */
+    margin: 2% 15%;
+    font-size:1.1rem;
+    word-spacing: normal;
+}
