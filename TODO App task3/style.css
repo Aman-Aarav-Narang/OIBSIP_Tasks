@@ -1,0 +1,87 @@
+*{
+
+   box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    /* background-color:rgb(95, 237, 247); */
+    background-color: rgb(70, 134, 245);
+    /* background-color:rgb(211, 164, 255); */
+    
+}
+
+.container {
+
+    /* border: 2px solid black; */
+    text-align: center;
+
+}
+
+.tophead {
+    /* background-color: aliceblue; */
+    font-size: 2.5rem;
+    color: white;
+   
+}
+
+#text {
+    width: 348px;
+    height: 30px;
+    font-size: medium;
+}
+
+.btn {
+    height: 30px;
+    font-size: 15px;
+    border-radius: 15px;
+    /* border: 0; */
+    cursor: pointer;
+}
+
+#todolist {
+    width: 500px;
+    margin: auto;
+}
+
+.outer {
+    background-color: white;
+    width: 550px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+}
+
+.topdiv {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(31, 131, 219); */
+}
+
+@media (max-width: 480px) {
+
+    #todolist {
+        width: 350px;
+        display: inline;
+        text-align: center;
+    }
+
+    .btn {
+        margin-top: 5px;
+    }
+
+    #text {
+        width: 300px;
+        height: 25px;
+        
+    }
+
+    .outer {
+        width: 350px;
+    }
+
+    .tophead {
+        font-size: 1.8rem;      
+    }
+
+}
